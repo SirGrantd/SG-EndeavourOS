@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Fundo Squircle Flat (Roxo icônico do Podman) -->
+  <rect x="12" y="12" width="104" height="104" rx="24" ry="24" fill="#894b9d"/>
+
+  <!-- Cabeça da foca minimalista -->
+  <ellipse cx="64" cy="56" rx="26" ry="22" fill="#ffffff"/>
+
+  <!-- Bochechas fofas -->
+  <ellipse cx="50" cy="68" rx="14" ry="10" fill="#ffffff"/>
+  <ellipse cx="78" cy="68" rx="14" ry="10" fill="#ffffff"/>
+
+  <!-- Nariz triangular arredondado -->
+  <path d="M 58 61 C 58 59 70 59 70 61 L 65 67 C 64.5 68 63.5 68 63 67 Z" fill="#894b9d"/>
+
+  <!-- Olhinhos minimalistas -->
+  <circle cx="50" cy="50" r="3.5" fill="#894b9d"/>
+  <circle cx="78" cy="50" r="3.5" fill="#894b9d"/>
+
+  <!-- Bigodinhos laterais brancos -->
+  <line x1="30" y1="65" x2="42" y2="67" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="72" x2="42" y2="70" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="98" y1="65" x2="86" y2="67" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="98" y1="72" x2="86" y2="70" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Contêiner cúbico na base -->
+  <rect x="42" y="81" width="44" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+  <line x1="56" y1="81" x2="56" y2="98" stroke="#894b9d" stroke-width="2.5"/>
+  <line x1="72" y1="81" x2="72" y2="98" stroke="#894b9d" stroke-width="2.5"/>
+</svg>

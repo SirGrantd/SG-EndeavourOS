@@ -1,4 +1,4 @@
-# ~/.XCompose — US-International Windows-like (gerado; ver .notes/implementacao-teclado-windows-like.md)
+# ~/.XCompose — US-International Windows-like
 include "%L"
 
 # ---- repetição da tecla morta: dois caracteres literais ----

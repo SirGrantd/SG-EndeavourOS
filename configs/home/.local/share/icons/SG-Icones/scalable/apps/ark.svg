@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Fundo Squircle Flat (Laranja/Âmbar para compactação) -->
+  <rect x="12" y="12" width="104" height="104" rx="24" ry="24" fill="#e67e22"/>
+
+  <!-- Caixa/Container do Arquivo -->
+  <rect x="34" y="34" width="60" height="60" rx="10" fill="#ffffff" opacity="0.95"/>
+
+  <!-- Faixa central do zíper -->
+  <rect x="58" y="34" width="12" height="60" fill="#d35400" rx="2"/>
+
+  <!-- Dentes alternados do zíper -->
+  <rect x="55" y="42" width="8" height="4" rx="1" fill="#ffffff"/>
+  <rect x="65" y="48" width="8" height="4" rx="1" fill="#ffffff"/>
+  <rect x="55" y="54" width="8" height="4" rx="1" fill="#ffffff"/>
+  <rect x="65" y="60" width="8" height="4" rx="1" fill="#ffffff"/>
+  <rect x="55" y="66" width="8" height="4" rx="1" fill="#ffffff"/>
+
+  <!-- Puxador do zíper -->
+  <rect x="57" y="72" width="14" height="18" rx="4" fill="#2c3e50"/>
+  <circle cx="64" cy="82" r="3" fill="#ffffff"/>
+</svg>

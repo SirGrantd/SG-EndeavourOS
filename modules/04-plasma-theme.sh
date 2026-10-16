@@ -21,8 +21,4 @@ kwriteconfig6 --file krunnerrc --group General --key FreeFloating true
 echo "  -> Mapeando atalho do KRunner para Meta + Espaço..."
 kwriteconfig6 --file kglobalshortcutsrc --group org.kde.krunner.desktop --key _launch "Meta+Space,Meta+Space,KRunner"
 
-# 3. Mapear Mission Center para Ctrl + Shift + Esc (estilo Gerenciador de Tarefas do Windows)
-echo "  -> Mapeando Mission Center para Ctrl + Shift + Esc..."
-kwriteconfig6 --file kglobalshortcutsrc --group "io.missioncenter.MissionCenter.desktop" --key _launch "Ctrl+Shift+Escape,none,Mission Center"
-
 echo "==> [04-Plasma-Theme] Atalhos e configurações de interface injetados com sucesso!"

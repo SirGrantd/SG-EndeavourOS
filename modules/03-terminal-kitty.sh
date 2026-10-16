@@ -20,11 +20,11 @@ cp -a "$REPO_ROOT/configs/home/.config/kitty/kitty.conf" "$HOME/.config/kitty/ki
 cp -a "$REPO_ROOT/configs/home/.config/kitty/current-theme.conf" "$HOME/.config/kitty/current-theme.conf"
 cp -a "$REPO_ROOT/configs/home/.config/kitty/backgrounds/"* "$HOME/.config/kitty/backgrounds/"
 
-# 3. Preservar perfil de contingência do Konsole
-if [ -d "$REPO_ROOT/configs/home/.local/share/konsole" ]; then
-    echo "  -> Preservando perfil de contingência do Konsole..."
-    mkdir -p "$HOME/.local/share/konsole"
-    cp -a "$REPO_ROOT/configs/home/.local/share/konsole/"* "$HOME/.local/share/konsole/"
+# 3. Definir Kitty como terminal padrão no KDE Plasma (se kwriteconfig6 estiver disponível)
+if command -v kwriteconfig6 >/dev/null 2>&1; then
+    echo "  -> Definindo Kitty como emulador de terminal padrão do KDE Plasma..."
+    kwriteconfig6 --file kdeglobals --group General --key TerminalApplication "kitty"
+    kwriteconfig6 --file kdeglobals --group General --key TerminalService "kitty.desktop"
 fi
 
 echo "==> [03-Terminal-Kitty] Configuração do terminal Kitty concluída!"

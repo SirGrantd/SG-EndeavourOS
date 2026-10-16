@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Fundo Squircle Flat (Cinza escuro ardósia para configurações) -->
+  <rect x="12" y="12" width="104" height="104" rx="24" ry="24" fill="#34495e"/>
+
+  <!-- Engrenagem simétrica de 8 dentes -->
+  <g fill="#ecf0f1">
+    <!-- Dentes verticais e horizontais -->
+    <rect x="59" y="28" width="10" height="72" rx="3"/>
+    <rect x="28" y="59" width="72" height="10" rx="3"/>
+    <!-- Dentes diagonais (45 graus) -->
+    <rect x="59" y="28" width="10" height="72" rx="3" transform="rotate(45 64 64)"/>
+    <rect x="59" y="28" width="10" height="72" rx="3" transform="rotate(-45 64 64)"/>
+    <!-- Corpo circular externo da engrenagem -->
+    <circle cx="64" cy="64" r="28"/>
+  </g>
+
+  <!-- Orifício central da engrenagem -->
+  <circle cx="64" cy="64" r="14" fill="#34495e"/>
+
+  <!-- Núcleo de acento sutil -->
+  <circle cx="64" cy="64" r="7" fill="#1abc9c"/>
+</svg>

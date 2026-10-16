@@ -16,9 +16,6 @@ OFFICIAL_PKGS=(
     ttf-jetbrains-mono
     ttf-jetbrains-mono-nerd
     ttf-roboto
-    duf
-    glances
-    mission-center
     tldr
 )
 
