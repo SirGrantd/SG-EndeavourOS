@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Módulo 02: Teclado XKB (us_br), Compose e Contingências Opcionais
-# Repositório: SG-EndevourOS
+# Repositório: SG-EndeavourOS
 # ==============================================================================
 
 set -euo pipefail

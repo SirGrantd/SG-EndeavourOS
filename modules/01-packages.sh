@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Módulo 01: Instalação e Verificação de Pacotes Base
-# Repositório: SG-EndevourOS
+# Repositório: SG-EndeavourOS
 # ==============================================================================
 
 set -euo pipefail

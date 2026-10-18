@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Módulo 03: Terminal Kitty (Aceleração GPU, Temas e Atalhos Windows)
-# Repositório: SG-EndevourOS
+# Repositório: SG-EndeavourOS
 # ==============================================================================
 
 set -euo pipefail

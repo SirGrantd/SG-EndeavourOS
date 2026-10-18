@@ -57,8 +57,8 @@ Para aplicativos Electron/Chromium legados que ainda apresentem inconsistências
 Clone o repositório e inicie o assistente:
 
 ```bash
-git clone https://github.com/SeuUsuario/SG-EndevourOS.git
-cd SG-EndevourOS
+git clone https://github.com/SeuUsuario/SG-EndeavourOS.git
+cd SG-EndeavourOS
 ./install.sh
 ```
 
@@ -66,7 +66,7 @@ cd SG-EndevourOS
 
 ## 🛠️ Modos de Instalação no Assistente
 
-O [`install.sh`](file:///home/grantd/Documents/github/MyProjects/SG-EndevourOS/install.sh) funciona como um roteiro interativo guiado (estilo *Oh My Zsh / Powerlevel10k*):
+O [`install.sh`](file:///home/grantd/Documents/github/MyProjects/SG-EndeavourOS/install.sh) funciona como um roteiro interativo guiado (estilo *Oh My Zsh / Powerlevel10k*):
 
 1. **Roteiro Guiado (Recomendado):** Faz perguntas claras para cada componente com valores padrão amigáveis `[S/n]`. Permite escolher se deseja ativar o layout `us_br`, quais aplicativos de contingência deseja configurar (seleção granular), o terminal Kitty e o KRunner flutuante. Exibe um resumo antes de aplicar.
 2. **Instalação Express:** Aplica todos os ajustes recomendados de desktop de forma rápida e silenciosa.
@@ -77,7 +77,7 @@ O [`install.sh`](file:///home/grantd/Documents/github/MyProjects/SG-EndevourOS/i
 ## 📂 Estrutura do Repositório
 
 ```text
-SG-EndevourOS/
+SG-EndeavourOS/
 ├── install.sh                  # Orquestrador interativo principal
 ├── modules/                    # Módulos especializados e idempotentes
 │   ├── 00-preflight.sh         # Diagnóstico (EndeavourOS/Arch, Plasma 6 Wayland, rede)
@@ -102,4 +102,4 @@ SG-EndevourOS/
 
 ## 📄 Licença
 
-Distribuído sob a licença [MIT](file:///home/grantd/Documents/github/MyProjects/SG-EndevourOS/LICENSE).
+Distribuído sob a licença [MIT](file:///home/grantd/Documents/github/MyProjects/SG-EndeavourOS/LICENSE).

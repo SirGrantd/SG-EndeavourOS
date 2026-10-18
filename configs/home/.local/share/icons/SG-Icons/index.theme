@@ -1,0 +1,22 @@
+[Icon Theme]
+Name=SG-Icons
+Comment=Tema flat minimalista exclusivo SG-Endeavour para KDE Plasma
+Inherits=breeze-dark,breeze,hicolor
+DisplayDepth=32
+Example=folder
+FollowsColorScheme=true
+Directories=scalable/apps,scalable/places
+
+[scalable/apps]
+Context=Applications
+Size=128
+Type=Scalable
+MinSize=16
+MaxSize=512
+
+[scalable/places]
+Context=Places
+Size=128
+Type=Scalable
+MinSize=16
+MaxSize=512

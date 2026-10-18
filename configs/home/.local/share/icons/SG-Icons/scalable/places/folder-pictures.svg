@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_2048_116)">
+<path d="M0 16.3467C0 10.2176 4.86957 9 11.1304 9L39.6522 9.00001C45.2174 9.00001 46.6087 9.65989 51.4783 13.6226C56.3478 17.5853 59.8261 16.7595 59.8261 16.7595H116.87C123.13 16.7595 128 21.5266 128 27.6557V44H0L0 16.3467Z" fill="#73BDFA"/>
+</g>
+<path d="M128 40.6406C128 31.6247 121.771 24.3159 114.088 24.3159H66.0898C56.8879 24.4278 66.0898 31.7548 41.0475 31.7548H6.96211C1.59471 31.9962 -0.114763 34.0462 0.00590297 42.3659L0.00588558 102.675C0.00588558 111.69 6.23468 118.999 13.9183 118.999H114.088C121.771 118.999 128 111.69 128 102.675V40.6406Z" fill="#99CEF9"/>
+<path d="M60.1509 54.8698C62.5445 52.0926 66.8472 52.0925 69.2407 54.8698L118.835 112.416C119.219 112.86 119.522 113.333 119.75 113.821C117.479 116.949 113.685 119 109.385 119H18.7515C14.9638 119 11.5698 117.406 9.26221 114.889C9.47733 114.024 9.89796 113.178 10.5552 112.416L60.1509 54.8698Z" fill="#DEF0FF"/>
+<ellipse cx="97.3912" cy="47.9873" rx="9.73913" ry="9.74681" fill="#DEF0FF"/>
+<defs>
+<filter id="filter0_i_2048_116" x="0" y="-11" width="128" height="55" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-20"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_2048_116"/>
+</filter>
+</defs>
+</svg>

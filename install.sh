@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Orquestrador Principal de Instalação: SG-EndevourOS (v2.0)
+# Orquestrador Principal de Instalação: SG-EndeavourOS (v2.0)
 # Desktop Híbrido: Linux + Windows + macOS no KDE Plasma 6 Wayland
 # Assistente Interativo e Modular
 # ==============================================================================
@@ -117,12 +117,13 @@ guided_wizard() {
     fi
 
     echo -e "\n${CYAN}----------------------------------------------------------------------${NC}"
-    echo -e "${BOLD}[Passo 3/3: Experiência KDE Plasma 6]${NC}"
+    echo -e "${BOLD}[Passo 3/3: Experiência KDE Plasma 6 & Tema SG-Icons]${NC}"
+    echo -e "  • Tema de ícones minimalista SG-Icons instalado e ativado"
     echo -e "  • KRunner centralizado e flutuante estilo Spotlight do macOS"
     echo -e "  • Atalho de busca universal em Meta + Espaço"
     echo -e "  • Preserva atalhos nativos do sistema (Ctrl + Esc intocado)"
     echo -e "${CYAN}----------------------------------------------------------------------${NC}"
-    read -rp "Deseja aplicar os ajustes visuais do Plasma 6 (KRunner flutuante)? [S/n]: " RESP_PLASMA
+    read -rp "Deseja aplicar os ajustes visuais do Plasma 6 (Tema SG-Icons e KRunner)? [S/n]: " RESP_PLASMA
     if [[ ! "$RESP_PLASMA" =~ ^[nN]$ ]]; then
         DO_PLASMA=true
     fi
@@ -149,7 +150,7 @@ guided_wizard() {
     fi
 
     if [ "$DO_PLASMA" = true ]; then
-        echo -e "  ${GREEN}[✓]${NC} Ajustes Visuais Plasma 6 (KRunner flutuante Meta+Espaço)"
+        echo -e "  ${GREEN}[✓]${NC} Ajustes Visuais Plasma 6 (Tema de Ícones SG-Icons e KRunner)"
     else
         echo -e "  ${RED}[✗]${NC} Ajustes Visuais Plasma 6 (ignorado)"
     fi
@@ -214,7 +215,7 @@ case "$OPTION" in
         echo "  2) 01-packages.sh      (Pacotes Essenciais e Fontes)"
         echo "  3) 02-keyboard-xkb.sh   (Layout US-BR e ~/.XCompose)"
         echo "  4) 03-terminal-kitty.sh (Dotfiles e Terminal Kitty)"
-        echo "  5) 04-plasma-theme.sh   (KRunner Flutuante Meta+Espaço)"
+        echo "  5) 04-plasma-theme.sh   (Tema SG-Icons e KRunner Meta+Espaço)"
         echo "  0) Voltar"
         echo ""
         read -rp "Selecione o módulo [1-5, 0]: " SUB_OPT

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Módulo 00: Preflight (Diagnóstico e Validação do Ambiente)
-# Repositório: SG-EndevourOS
+# Repositório: SG-EndeavourOS
 # ==============================================================================
 
 set -euo pipefail
